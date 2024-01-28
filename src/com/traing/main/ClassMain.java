@@ -10,20 +10,20 @@ import java.util.Set;
 public class ClassMain {
 	
 	public static void main(String args[]) {
-//		ClassMain m = new ClassMain();
-//		B b = new B();
-//System.out.println(b.b);
-//B b1 = new B("passedvallue");
-//
-//String s = "string";//immutable =
-//String s2 = "string";//String Literal declaration //String constant pool
-//String s1 = new String("storing");
-//String s3 = new String("stkring");
-//String [] sarr = {"aaa","bbb","ccc"};
-//System.out.println(s.hashCode());
-//System.out.println(s2.hashCode());
-//System.out.println(s1.hashCode());
-//System.out.println(s3.hashCode());
+		ClassMain m = new ClassMain();
+		B b = new B();
+System.out.println(b.b);
+B b1 = new B("passedvallue");
+
+String s6 = "string";//immutable string
+String s2 = "string";//String Literal declaration //String constant pool
+String s1 = new String("storing");
+String s3 = new String("stkring");
+String [] sarr = {"aaa","bbb","ccc"};
+System.out.println(s6.hashCode());
+System.out.println(s2.hashCode());
+System.out.println(s1.hashCode());
+System.out.println(s3.hashCode());
 int temp = 100;
 Integer i = new Integer(temp);
 Integer j = 1000;//AutoBoxing typconversion basic to userdifined
@@ -53,6 +53,7 @@ Integer j = 1000;//AutoBoxing typconversion basic to userdifined
 		map.put("minu", 34);
 		map.put("rahul", 35);
 		System.out.println(map);
+//		SingletonExample s = new SingletonExample();
 	}
 protected int a =100;
 }

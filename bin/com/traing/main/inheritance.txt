@@ -1,0 +1,11 @@
+class College{
+    String name="Ruban College";
+}
+class Branch extends College{
+    int totalseats=100;
+    public static void main(String[] args) {
+        Branch computerscience=new Branch();
+        System.out.println("College name: "+computerscience.name);
+        System.out.println("Total seats: "+computerscience.totalseats);
+    }
+}

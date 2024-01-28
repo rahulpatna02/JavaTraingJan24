@@ -1,5 +1,5 @@
 package com.traing.main;
-
+//
 public class Tea implements Drink {
 //Implemantation for make a drink of Drink Interface
 	
